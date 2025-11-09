@@ -1,0 +1,184 @@
+---
+layout: post
+title:  "Crypto Day 10000.10.10000"
+author: "Hoeteck"
+date:   2025-
+---
+
+The first Paris Area Crypto Day will be held on 16.02.16 (Tues) at
+ENS.
+
+* [Amphi Rataud](https://www.di.ens.fr/AccesDI.html.fr), ENS
+* Please [register](https://docs.google.com/forms/d/1VkvweWTJN8s1s6CH_1PGq5NlDcNYGvpziEmRW-jkb1E/viewform) (free, lunch included). Deadline 11.02.16
+
+### Program
+
+| 10:00&nbsp;-&nbsp;10:10 | Welcome
+| 10:10 - 11:10 | [Antoine Joux](#AJ) Technical History of Discrete Logarithms in Small Characteristic Finite Fields
+| 11:20 - 11:40 | [Romain Gay](#RG) Tightly Secure CCA-Secure Encryption without Pairings 
+| 11:40 - 12:00 | [Pierrick Méaux](#PM) Towards Stream Ciphers for Efficient FHE with Low-Noise Ciphertexts
+| 12:00 - 14:00 | Lunch 
+| 14:00 - 15:00 | [Sonia Belaïd](#SB) On the Use of Masking to Defeat Power-Analysis Attacks
+| 15:00 - 15:20 | [Alain Passelègue](#AP) Randomness Complexity of Private Circuits for Multiplication
+| 15:20 - 15:50 | Coffee Break
+| 15:50 - 16:50 | [Karthikeyan Bhargavan](#KB) Freak, Logjam, and Sloth: Protecting TLS from Legacy Crypto
+
+**Organizers.** Michel Abdalla and Hoeteck Wee ([ENS](https://crypto.di.ens.fr/web2py))
+
+**Acknowledgements.** ERC [CryptoCloud](http://www.di.ens.fr/~pointche/CryptoCloud/) and [aSCEND](http://cordis.europa.eu/project/rcn/193658_en.html)
+
+
+----------------
+
+### Abstracts
+
+**<a name="AJ"></a>Technical History of Discrete Logarithms in Small Characteristic Finite Fields**
+*Antoine Joux*
+
+Due to its use in cryptographic protocols such as the Diffie--Hellman
+key exchange, the discrete logarithm problem attracted a considerable
+amount of attention in the past 40 years. In this talk, we summarize
+the key technical ideas and their evolution for the case of discrete
+logarithms in small characteristic finite fields. This road leads from
+the original belief that this problem was hard enough for
+cryptographic purpose to the current state of the art where the
+algorithms are so efficient and practical that the problem can no
+longer be considered for cryptographic use.
+
+**<a name="SB"></a>On the Use of Masking to Defeat Power-Analysis Attacks**
+*Sonia Belaïd*
+
+While most cryptographic algorithms are assumed to be secure against
+black-box attacks, they are often vulnerable to side-channel attacks
+which exploit the physical emanations of the underlying device (e.g.,
+temperature, power consumption, time). In order to defeat such
+attacks, several countermeasures have been exhibited within the last
+two decades. So far, the most deployed one at the algorithmic level is
+probably the use of masking. It consists in randomly splitting each
+sensitive variable of the computation into t+1 shares, where the
+masking order t represents the security level. While this
+countermeasure is very efficient in practice, it can be complex to
+design while t grows. During this talk, I will discuss the current
+issues to build higher-order masking schemes and the solutions that
+currently show up. In particular, I will present the construction of
+theoretical proofs to show the security of such schemes in the widely
+used t-probing leakage model.
+
+**<a name="KB"></a>Freak, Logjam, and Sloth: Protecting TLS from Legacy Crypto**
+*Karthikeyan Bhargavan*
+
+The Transport Layer Security (TLS) protocol suffers from legacy bloat:
+after 20 years of evolution, it features many versions, extensions,
+and ciphersuites, some of which are obsolete and known to be
+insecure. Implementations and deployments of TLS deal with this
+complexity by implementing composite state machines that allow new and
+old features to coexist for interoperability, while waiting for
+deprecated features to be disabled over time. Getting this composition
+right is tricky, and any flaw can result in a serious attack that
+bypasses the expected security of TLS.
+
+This talk will discuss three recent vulnerabilities discovered in our
+group: FREAK uses legacy support for export-grade RSA cipher suites to
+break into connections between mainstream browsers and 25% of the web;
+Logjam exploits a protocol flaw to confuse DHE key exchanges into
+using export-grade Diffie-Hellman groups; SLOTH exploits hash function
+collisions to mount downgrade and impersonation attacks on TLS. These
+attacks rely on a combination of protocol-level weaknesses,
+implementation bugs, and weak cryptography. The talk will advocate
+principled methods to avoid such weaknesses in the future, such as
+software verification and new robust designs for new protocols like
+TLS 1.3.
+
+**<a name="RG"></a>Tightly Secure CCA-Secure Encryption without Pairings**
+*Romain Gay*
+
+We present the first CCA-secure public-key encryption scheme based on
+DDH where the security loss is independent of the number of challenge
+ciphertexts and the number of decryption queries. Our construction
+extends also to the standard k-Lin assumption in pairing-free groups,
+whereas all prior constructions starting with Hofheinz and Jager
+(Crypto '12) rely on the use of pairings. Moreover, our construction
+improves upon the concrete efficiency of existing schemes, reducing
+the ciphertext overhead by about half (to only 3 group elements under
+DDH), in addition to eliminating the use of pairings. We also show how
+to use our techniques in the NIZK setting. Specifically, we construct
+the first tightly simulation-sound designated-verifier NIZK for linear
+languages without pairings. Using pairings, we can turn our
+construction into a highly optimized publicly verifiable NIZK with
+tight simulation-soundness.
+
+Joint work with Dennis Hofheinz, Eike Kiltz and Hoeteck Wee
+
+**<a name="PM"></a>Towards Stream Ciphers for Efficient FHE with Low-Noise Ciphertexts**
+*Pierrick Méaux*
+
+Symmetric ciphers purposed for Fully Homomorphic Encryption (FHE) have
+recently been proposed for two main reasons. First, minimizing the
+implementation (time and memory) overheads that are inherent to
+current FHE schemes. Second, improving the homomorphic capacity,
+i.e. the amount of operations that one can perform on homomorphic
+ciphertexts before bootstrapping, which amounts to limit their level
+of noise.  Existing solutions for this purpose suggest a gap between
+block ciphers and stream ciphers. The first ones typically allow a
+constant but small homomorphic capacity, due to the iteration of
+rounds eventually leading to complex Boolean functions (hence large
+noise). The second ones typically allow a larger homomorphic capacity
+for the first ciphertext blocks, that decreases with the number of
+ciphertext blocks (due to the increasing Boolean complexity of the
+stream ciphers' output).  In this work, we aim to combine the best of
+these two worlds, and propose a new stream cipher construction that
+allows constant and small(er) noise. Its main idea is to apply a
+Boolean (filter) function to a public bit permutation of a constant
+key register, so that the Boolean complexity of its outputs is
+constant.  We then propose an instantiation of the filter designed to
+exploit recent (3rd-generation) FHE schemes, where the error growth is
+quasi-additive when adequately multiplying ciphertexts with the same
+amount of noise.  We finally analyze the cryptanalytic security and
+noise of a couple of instances of this stream cipher, and conclude by
+highlighting its excellent properties regarding the other goal of
+minimizing the time and memory complexity of calculus delegation (for
+2nd-generation FHE schemes).
+
+Joint work with Anthony Journault, François-Xavier Standaert and Claude Carlet.
+
+**<a name="AP"></a>Randomness Complexity of Private Circuits for Multiplication**
+*Alain Passelègue*
+
+Many cryptographic algorithms appear to be vulnerable to side channel
+analysis and several leakage models have been introduced to better
+understand these analyses. In 2003, Ishai, Sahai and Wagner introduced
+the $d$-probing security model, in which an attacker can observe at
+most $d$ intermediate values during a processing. They also proposed
+an algorithm that securely performs the multiplication of 2 bits in
+this model, using only $d(d+1)/2$ random bits to protect the
+computation.  The $d$-probing model and the latter multiplication
+algorithm are nowadays widely used by the community to either prove
+the security of constructions or to define secure implementations.
+
+In this paper, we study the randomness complexity of multiplication
+algorithms secure in the $d$-probing model. On this subject, we
+propose several contributions: we provide new theoretical
+characterizations and constructions, new practical constructions and a
+new efficient algorithmic tool to analyze the security of such
+schemes.
+
+We first start by a theoretical treatment of the subject: we propose
+an algebraic model for multiplication algorithms and exhibit an
+algebraic characterization of the security in the $d$-probing
+model. Using this algebraic characterization, we prove a linear (in
+$d$) lower bound as well as a quasi-linear (non-constructive) upper
+bound for this randomness cost.  This characterization also allows us
+to better understand the security of a multiplication algorithm and we
+construct a new generic algorithm to perform secure multiplication in
+the $d$-probing model that only uses $d + d^2/4$ random bits.
+
+From a practical point of view, we consider the important cases $d \le
+4$ that are actually used in real-life implementations and we build
+optimal algorithms for these small-order cases. More precisely, we
+propose algorithms with a randomness complexity matching our
+theoretical lower bound. Finally, still using our algebraic
+characterization, we provide a new dedicated verification tool, based
+on information set decoding, which aims at finding attacks on
+algorithms for fixed order $d$ at a very low computational cost.
+
+Joint work with Sonia Belaïd, Fabrice Benhamouda, Emmanuel Prouff, Adrian Thillard, and Damien Vergnaud.

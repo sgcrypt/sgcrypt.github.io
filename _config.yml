@@ -1,8 +1,8 @@
 # Site settings
-title: sgcrypt
+title: SG Crypto Workshop
 email: hoeteck.wee@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  sgcrypt
+  cryptography talks in Singapore
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://sgcrypt.github.io"
 github_username:  sgcrypt
