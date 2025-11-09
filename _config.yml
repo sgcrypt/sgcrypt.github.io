@@ -1,17 +1,19 @@
 # Site settings
-title: Paris Crypto Day
-email: wee@di.ens.fr
+title: sgcrypt
+email: hoeteck.wee@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  A full day of cryptography talks in the Paris area.
+  sgcrypt
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://pariscryptoday.github.io"
-github_username:  pariscryptoday
+url: "https://sgcrypt.github.io"
+github_username:  sgcrypt
 
 author :
   name : Name Lastname
   email : blah@email.test
   github : username
   twitter : username
+
+theme: jekyll-theme-minimal
 
 # Build settings
 markdown: kramdown
