@@ -1,0 +1,27 @@
+# Site settings
+title: Paris Crypto Day
+email: wee@di.ens.fr
+description: > # this means to ignore newlines until "baseurl:"
+  A full day of cryptography talks in the Paris area.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://pariscryptoday.github.io"
+github_username:  pariscryptoday
+
+author :
+  name : Name Lastname
+  email : blah@email.test
+  github : username
+  twitter : username
+
+# Build settings
+markdown: kramdown
+
+# Makes pretty (descriptive) permalinks. See Jekyll docs for alternatives.
+permalink: none
+
+# How many articles do you wish to appear on the front page:
+paginate: 3
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
+
