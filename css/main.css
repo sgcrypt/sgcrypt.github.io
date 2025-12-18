@@ -3,7 +3,7 @@
 body {
   background-color: #fff;
   padding:50px;
-  font:14px/1.5 "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:15px/1.5 "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#555;
   font-weight:400;
 }
@@ -111,7 +111,7 @@ img {
 }
 
 banner {
-  width:900px;
+  width:880px;
   margin:0 auto;
   clear: left;
 }
@@ -126,7 +126,7 @@ section {
 }
 
 nav {
-  width:230px;
+  width:180px;
   float:right;
   padding-bottom:30px;
   border:1px solid #e5e5e5;
