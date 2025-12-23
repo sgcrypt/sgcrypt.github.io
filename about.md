@@ -8,7 +8,7 @@ permalink: /about/
 
 The talks are held at COM3-01-21 Seminar Room 12.
 
-[map](COM3.web_01.webp)
+![map](COM3.web_01.webp)
 
 Directions to COM3 are [here](https://www.comp.nus.edu.sg/about/getting-here/).
 For most folks, the easiest to NUS COM3 would be via MRT:
