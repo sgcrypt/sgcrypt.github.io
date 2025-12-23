@@ -4,7 +4,7 @@ title: Directions
 permalink: /about/
 ---
 
-The talks are held at COM3-01-21 (aka Seminar Room 12), level 1. On the map below,
+The talks are held at COM3-01-21 (Seminar Room 12). On the map below,
 it's the yellow room at the top left.
 
 ![map](COM3_01.webp)
