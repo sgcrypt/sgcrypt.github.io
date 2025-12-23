@@ -1,10 +1,8 @@
 ---
 layout: page
-title: About
+title: Directions
 permalink: /about/
 ---
-
-#### Directions
 
 The talks are held at COM3-01-21 Seminar Room 12.
 
