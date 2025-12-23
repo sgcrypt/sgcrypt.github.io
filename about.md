@@ -4,12 +4,13 @@ title: Directions
 permalink: /about/
 ---
 
-The talks are held at COM3-01-21 Seminar Room 12.
+The talks are held at COM3-01-21 (aka Seminar Room 12), level 1. On the map below,
+it's the yellow room at the top left.
 
 ![map](COM3_01.webp)
 
 Directions to COM3 are [here](https://www.comp.nus.edu.sg/about/getting-here/).
-For most folks, the easiest to NUS COM3 would be via MRT:
+For most folks, the easiest would be via MRT:
 
 * Take the MRT to Kent Ridge MRT Station (CC24):
 * Take Exit A from the station and walk to the bus stop opposite Kent Ridge MRT
