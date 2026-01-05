@@ -4,11 +4,14 @@ title: Directions
 permalink: /about/
 ---
 
-The talks are held at COM3-01-21 (Seminar Room 12). On the map below,
-it's the yellow room at the top left.
+The talks are held at ~~COM3-01-21~~ [COM1, 02-12](https://nusmods.com/venues/COM1-0212).
+<!-- On the map below, it's the yellow room at the top left. -->
 
 ![map](COM3_01.webp)
 
+
+To get to COM1, take the shuttle to COM3, and then the elevator to
+level 1, that is directly connected to COM1.
 Directions to COM3 are [here](https://www.comp.nus.edu.sg/about/getting-here/).
 For most folks, the easiest would be via MRT:
 
