@@ -6,9 +6,7 @@ permalink: /about/
 
 The talks are held at ~~COM3-01-21~~ [COM1, 02-12](https://nusmods.com/venues/COM1-0212).
 <!-- On the map below, it's the yellow room at the top left.
-
-![map](COM3_01.webp)
--->
+ ![map](COM3_01.webp) -->
 
 To get to COM1, take the shuttle to COM3, and then the elevator to
 level 1, that is directly connected to COM1.
