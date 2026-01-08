@@ -9,8 +9,7 @@ The talks are held at ~~COM3-01-21~~ [COM1, 02-12](https://nusmods.com/venues/CO
  ![map](COM3_01.webp) -->
 
 To get to COM1, take the shuttle to COM3 (level B2), and then the elevator/stairs,
-that is directly connected to COM1 (past the open/dining area).
-The talks are at COM1 level 2.
+that is directly connected to COM1. The talks are at COM1 level 2.
 
 Directions to COM3 are [here](https://www.comp.nus.edu.sg/about/getting-here/).
 For most folks, the easiest would be via MRT:
