@@ -8,15 +8,15 @@ The talks are held at ~~COM3-01-21~~ [COM1, 02-12](https://nusmods.com/venues/CO
 <!-- On the map below, it's the yellow room at the top left.
  ![map](COM3_01.webp) -->
 
-To get to COM1, take the shuttle to COM3 (level B2), and then the elevator/stairs to
-level 1, that is directly connected to COM1 level 1 (past the open/dining area).
+To get to COM1, take the shuttle to COM3 (level B2), and then the elevator/stairs,
+that is directly connected to COM1 (past the open/dining area).
 The talks are at COM1 level 2.
 
 Directions to COM3 are [here](https://www.comp.nus.edu.sg/about/getting-here/).
 For most folks, the easiest would be via MRT:
 
 * Take the MRT to Kent Ridge MRT Station (CC24):
-* Take Exit A from the station and walk to the bus stop opposite Kent Ridge MRT (close to the hospital)
+* Take Exit A from the station and walk to the bus stop opposite Kent Ridge MRT (follow the signs to bus stop 4)
 * Take internal shuttle bus service D2 from the bus stop opposite Kent Ridge MRT station
 * Alight at the third bus stop, COM3
 
