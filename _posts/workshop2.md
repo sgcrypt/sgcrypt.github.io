@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Workshop in Jan 2027"
-date:   2026-10-09
+date:   2026-09-10
 ---
 We are planning a second cryptography workshop at NUS, tentatively scheduled
 for Jan 7 and 8, 2027 (Thu & Fri).
