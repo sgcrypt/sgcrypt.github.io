@@ -1,6 +1,6 @@
 
 upload:
 	git pull
-	git add _posts/20*.md
+	git add _posts/*.md
 	git commit -m "update"
 	git push origin master
