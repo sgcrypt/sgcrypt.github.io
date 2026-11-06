@@ -16,4 +16,4 @@ To get to COM1, take the shuttle to COM3 (level B2), then use the elevator or st
 - Take the NUS internal shuttle bus D2.
 - Alight at COM3 (the third stop).
 
-The [NUS internal shuttle bus](https://uci.nus.edu.sg/campus-life/campus-services/transportation/internal-shuttle-bus/) is free and does not require an NUS ID. These are historical 2026 directions; transport arrangements may change.
+The [NUS internal shuttle bus](https://uci.nus.edu.sg/campus-life/campus-services/transportation/internal-shuttle-bus/) is free and does not require an NUS ID.
