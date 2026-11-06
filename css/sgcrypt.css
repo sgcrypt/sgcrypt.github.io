@@ -23,3 +23,28 @@ section td a { font-weight: 600; }
   section table { display: block; overflow-x: auto; }
   section td:first-child { white-space: nowrap; }
 }
+
+/* SG Crypt talk schedule: compact controls, full-sized abstract text. */
+.talk-program { width: 100%; border-collapse: collapse; }
+.talk-program th, .talk-program td { vertical-align: top; padding: 9px 7px; }
+.talk-program td:first-child { width: 108px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.talk-program .talk-title { margin-top: 2px; }
+.talk-program .talk-controls { margin-top: 5px; font-size: 0.85em; line-height: 1.45; }
+.talk-program .talk-controls a { font-weight: normal; }
+.talk-program .talk-controls .separator { color: #999; margin: 0 5px; }
+.talk-program details { margin: 0; display: inline-block; vertical-align: top; }
+.talk-program details[open] { display: block; }
+.talk-program summary { color: #267cb9; cursor: pointer; display: inline; list-style: none; }
+.talk-program summary::-webkit-details-marker { display: none; }
+.talk-program summary::before { content: "\25B8  "; }
+.talk-program details[open] summary::before { content: "\25BE  "; }
+.talk-program summary:hover { text-decoration: underline; }
+.talk-program summary:focus-visible { outline: 2px solid #267da8; outline-offset: 2px; }
+.talk-program .talk-abstract-body { margin-top: 10px; font-size: 1.17647em; line-height: 1.6; color: #444; }
+.talk-program .talk-abstract-body p { margin: 0 0 12px; }
+.talk-program .talk-abstract-body p:last-child, .talk-program .talk-abstract-body ol:last-child { margin-bottom: 0; }
+.talk-program .talk-abstract-body ol { margin: 0 0 12px; padding-left: 22px; }
+.talk-program .talk-abstract-body li { margin-bottom: 6px; }
+@media screen and (max-width: 520px) {
+  .talk-program td:first-child { width: 90px; }
+}
