@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Directions
-permalink: /about/
+permalink: /directions-2027/
 ---
 
 **SG Crypt 2027** is tentatively scheduled for **January 7–8, 2027**, at the National University of Singapore (NUS).

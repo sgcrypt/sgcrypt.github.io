@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Directions 2026
+nav: false
 permalink: /directions-2026/
 ---
 
