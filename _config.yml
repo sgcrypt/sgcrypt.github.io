@@ -1,29 +1,14 @@
-# Site settings
-title: SG Crypto Workshop
+# SG Crypt — site settings
+# Retain the existing GitHub Pages URL and Jekyll theme.
+title: SG Crypt
+description: Cryptography Workshops in Singapore
 email: hoeteck.wee@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  cryptography talks in Singapore
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: ""
 url: "https://sgcrypt.github.io"
-github_username:  sgcrypt
-
-author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
+github_username: sgcrypt
 
 theme: jekyll-theme-minimal
-
-# Build settings
 markdown: kramdown
-
-# Makes pretty (descriptive) permalinks. See Jekyll docs for alternatives.
 permalink: none
-
-# How many articles do you wish to appear on the front page:
 paginate: 3
-
-# Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
-
