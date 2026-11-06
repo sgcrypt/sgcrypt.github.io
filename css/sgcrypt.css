@@ -31,7 +31,7 @@ section td a { font-weight: 600; }
 .talk-program td:nth-child(2) { width: auto; }
 .talk-program .talk-title { margin-top: 2px; }
 
-/* The small abstract toggle and original slide icon share the same line,
+/* The small abstract toggle and text slides link share the same line,
    even when the abstract is expanded. */
 .talk-program .talk-controls { position: relative; margin-top: 5px; font-size: 0.78em; line-height: 1.45; }
 .talk-program .talk-abstract { display: block; margin: 0; }
@@ -42,8 +42,9 @@ section td a { font-weight: 600; }
 .talk-program .talk-abstract[open] summary::before { content: "[- "; }
 .talk-program .talk-abstract summary:hover { text-decoration: underline; }
 .talk-program .talk-abstract summary:focus-visible { outline: 2px solid #267da8; outline-offset: 2px; }
-.talk-program .slides-link { position: absolute; top: 0; left: 100px; line-height: 1.45; }
-.talk-program .slides-link img { width: 18px; height: auto; vertical-align: middle; border: 0; }
+.talk-program .slides-link { position: absolute; top: 0; left: 105px; line-height: 1.45; color: #267cb9; font-weight: normal; text-decoration: none; white-space: nowrap; }
+.talk-program .slides-link:hover { text-decoration: underline; }
+.talk-program .slides-link:focus-visible { outline: 2px solid #267da8; outline-offset: 2px; }
 
 /* Full-size text when expanded: compensate for the smaller control font. */
 .talk-program .talk-abstract-body { margin-top: 10px; font-size: 1.28205em; line-height: 1.6; color: #444; }
