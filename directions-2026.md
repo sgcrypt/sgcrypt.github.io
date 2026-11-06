@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Directions for SG Crypt 2026
+title: Directions 2026
 permalink: /directions-2026/
 ---
 

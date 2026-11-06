@@ -1,14 +1,13 @@
-<nav>
+<nav aria-label="Workshop links">
   <h4>Related Events</h4>
-  <p>
-     <a href="https://researchweek.comp.nus.edu.sg/">NUS Research Week</a><br>
-     </p>
+  <p><a href="https://researchweek.comp.nus.edu.sg/">NUS Research Week</a></p>
 
-    <h4>Previous Editions</h4>
-    {% for post in site.posts %}
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><br>
-    {% endfor %}
+  <h4>Previous Editions</h4>
+  {% comment %}The newest post is the current edition, so omit it here.{% endcomment %}
+  {% for post in site.posts offset:1 %}
+    <p class="edition-link"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></p>
+  {% endfor %}
 </nav>
-<footer>
-  <p><small>Hosted on GitHub Pages &mdash; based on Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+<footer class="site-footer">
+  <p><small>SG Crypt &middot; Cryptography Workshops in Singapore</small></p>
 </footer>

@@ -1,0 +1,25 @@
+/* Small, conservative improvements to the existing minimal theme. */
+body { color: #444; }
+.wrapper { max-width: 900px; }
+h1, h2, h3, h4 { line-height: 1.25; }
+h2 { margin-bottom: 18px; }
+a { text-underline-offset: 2px; }
+a:focus-visible { outline: 2px solid #267da8; outline-offset: 2px; }
+.current-edition { min-height: 220px; }
+.edition-link { margin: 0 0 9px; line-height: 1.4; }
+.site-footer { color: #777; }
+/* Improve readability of program tables without changing their content. */
+section table { border-collapse: collapse; width: 100%; }
+section td, section th { vertical-align: top; padding: 9px 7px; }
+section tr:nth-child(even) { background: #fafafa; }
+section td:first-child { white-space: nowrap; font-variant-numeric: tabular-nums; }
+section td a { font-weight: 600; }
+@media screen and (max-width: 960px) {
+  .wrapper { max-width: 100%; }
+  nav { padding-right: 0; }
+}
+@media screen and (max-width: 520px) {
+  body { padding: 16px; }
+  section table { display: block; overflow-x: auto; }
+  section td:first-child { white-space: nowrap; }
+}
