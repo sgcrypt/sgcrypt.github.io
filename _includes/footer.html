@@ -6,7 +6,7 @@
 
     <h4>Previous Editions</h4>
     {% for post in site.posts %}
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | date: "%b %Y" }}</a><br>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><br>
     {% endfor %}
 </nav>
 <footer>
