@@ -1,6 +1,6 @@
 /* Small, conservative improvements to the existing minimal theme. */
 body { color: #444; }
-.wrapper { max-width: 900px; }
+.wrapper { max-width: 1120px; }
 h1, h2, h3, h4 { line-height: 1.25; }
 h2 { margin-bottom: 18px; }
 a { text-underline-offset: 2px; }
@@ -24,27 +24,35 @@ section td a { font-weight: 600; }
   section td:first-child { white-space: nowrap; }
 }
 
-/* SG Crypt talk schedule: compact controls, full-sized abstract text. */
-.talk-program { width: 100%; border-collapse: collapse; }
+/* SG Crypt 2026 schedule */
+.talk-program { width: 100%; table-layout: auto; border-collapse: collapse; }
 .talk-program th, .talk-program td { vertical-align: top; padding: 9px 7px; }
-.talk-program td:first-child { width: 108px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.talk-program td:first-child { width: 102px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.talk-program td:nth-child(2) { width: auto; }
 .talk-program .talk-title { margin-top: 2px; }
-.talk-program .talk-controls { margin-top: 5px; font-size: 0.85em; line-height: 1.45; }
-.talk-program .talk-controls a { font-weight: normal; }
-.talk-program .talk-controls .separator { color: #999; margin: 0 5px; }
-.talk-program details { margin: 0; display: inline-block; vertical-align: top; }
-.talk-program details[open] { display: block; }
-.talk-program summary { color: #267cb9; cursor: pointer; display: inline; list-style: none; }
-.talk-program summary::-webkit-details-marker { display: none; }
-.talk-program summary::before { content: "\25B8  "; }
-.talk-program details[open] summary::before { content: "\25BE  "; }
-.talk-program summary:hover { text-decoration: underline; }
-.talk-program summary:focus-visible { outline: 2px solid #267da8; outline-offset: 2px; }
-.talk-program .talk-abstract-body { margin-top: 10px; font-size: 1.17647em; line-height: 1.6; color: #444; }
+
+/* The small abstract toggle and original slide icon share the same line,
+   even when the abstract is expanded. */
+.talk-program .talk-controls { position: relative; margin-top: 5px; font-size: 0.78em; line-height: 1.45; }
+.talk-program .talk-abstract { display: block; margin: 0; }
+.talk-program .talk-abstract summary { display: inline-block; list-style: none; color: #267cb9; cursor: pointer; }
+.talk-program .talk-abstract summary::-webkit-details-marker { display: none; }
+.talk-program .talk-abstract summary::before { content: "[+ "; }
+.talk-program .talk-abstract summary::after { content: "]"; }
+.talk-program .talk-abstract[open] summary::before { content: "[- "; }
+.talk-program .talk-abstract summary:hover { text-decoration: underline; }
+.talk-program .talk-abstract summary:focus-visible { outline: 2px solid #267da8; outline-offset: 2px; }
+.talk-program .slides-link { position: absolute; top: 0; left: 100px; line-height: 1.45; }
+.talk-program .slides-link img { width: 18px; height: auto; vertical-align: middle; border: 0; }
+
+/* Full-size text when expanded: compensate for the smaller control font. */
+.talk-program .talk-abstract-body { margin-top: 10px; font-size: 1.28205em; line-height: 1.6; color: #444; }
 .talk-program .talk-abstract-body p { margin: 0 0 12px; }
-.talk-program .talk-abstract-body p:last-child, .talk-program .talk-abstract-body ol:last-child { margin-bottom: 0; }
+.talk-program .talk-abstract-body p:last-child,
+.talk-program .talk-abstract-body ol:last-child { margin-bottom: 0; }
 .talk-program .talk-abstract-body ol { margin: 0 0 12px; padding-left: 22px; }
 .talk-program .talk-abstract-body li { margin-bottom: 6px; }
+
 @media screen and (max-width: 520px) {
   .talk-program td:first-child { width: 90px; }
 }
